@@ -72,7 +72,7 @@ const ProjectTasks = () => {
 
   useEffect(() => {
     filterTasks();
-  }, [tasks, filter]);
+  }, [tasks, filter, filterTasks]);
 
   return (
     <>

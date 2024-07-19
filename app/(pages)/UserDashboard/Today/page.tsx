@@ -7,7 +7,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 type Props = {};
 
-const page = (props: Props) => {
+const Page = (props: Props) => {
   const { data, isLoading, isError } = useQuery(
     "todayTasks",
     async () => await getTodayTasks()
@@ -23,8 +23,11 @@ const page = (props: Props) => {
         "
             >
               {isLoading && <p className="text-white">Loading...</p>}
-              {data?.map((task) => (
-                <li className="text-white bg-secondary p-4  rounded-lg hover:bg-secondary/90">
+              {data?.map((task, index) => (
+                <li
+                  className="text-white bg-secondary p-4  rounded-lg hover:bg-secondary/90"
+                  key={index}
+                >
                   {task.title}
                 </li>
               ))}
@@ -37,4 +40,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default Page;

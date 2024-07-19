@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import NavBar from "@/components/navBar";
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -42,7 +43,7 @@ export default function Component() {
                     </Link>
                   </div>
                 </div>
-                <img
+                <Image
                   src="https://cdn.dribbble.com/userupload/14578477/file/original-075a63278975e7e61e8f0a5ef8a3bd37.png?resize=2048x1365"
                   width="550"
                   height="550"
@@ -69,7 +70,7 @@ export default function Component() {
               </div>
               <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <Card className="bg-black border-none  ">
-                  <img
+                  <Image
                     src="/Task.jpg"
                     alt="service"
                     className="rounded-t-lg object-cover bg-secondary"
@@ -84,7 +85,7 @@ export default function Component() {
                   </CardContent>
                 </Card>
                 <Card className="bg-black border-none">
-                  <img
+                  <Image
                     src="/project.jpg"
                     alt="service"
                     className="rounded-t-lg object-cover"
@@ -98,7 +99,7 @@ export default function Component() {
                   </CardContent>
                 </Card>
                 <Card className="bg-black border-none">
-                  <img
+                  <Image
                     src="/filter.png"
                     alt="service"
                     className="rounded-t-lg object-cover"
@@ -113,7 +114,7 @@ export default function Component() {
                   </CardContent>
                 </Card>
                 <Card className="bg-black border-none">
-                  <img
+                  <Image
                     src="/today.jpg"
                     alt="service"
                     className="rounded-t-lg object-cover h-[57%]"
@@ -121,9 +122,9 @@ export default function Component() {
                   <CardContent className="p-4">
                     <h3 className="text-lg font-bold text-white">Today</h3>
                     <p className="text-muted-foreground">
-                      Today keeps you focused on just what’s due today. Enjoy
-                      the sweet satisfaction of hitting #TodoistZero when the
-                      day’s done.
+                      Today keeps you focused on just what&apos;s due today.
+                      Enjoy the sweet satisfaction of hitting #TodoistZero when
+                      the day done.
                     </p>
                   </CardContent>
                 </Card>
@@ -140,8 +141,8 @@ export default function Component() {
                   </h2>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Have a question or want to learn more about our coaching
-                    services? Fill out the form below and we'll get back to you
-                    as soon as possible.
+                    services? Fill out the form below and we&apos;ll get back to
+                    you as soon as possible.
                   </p>
                 </div>
                 <form className="mx-auto w-full max-w-md space-y-4">
