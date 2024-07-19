@@ -44,7 +44,7 @@ export default function Component() {
                   </div>
                 </div>
                 <Image
-                  src="https://cdn.dribbble.com/userupload/14578477/file/original-075a63278975e7e61e8f0a5ef8a3bd37.png?resize=2048x1365"
+                  src="/original.png"
                   width="550"
                   height="550"
                   alt="Hero"
@@ -73,6 +73,8 @@ export default function Component() {
                   <Image
                     src="/Task.jpg"
                     alt="service"
+                    width="550"
+                    height="550"
                     className="rounded-t-lg object-cover bg-secondary"
                   />
                   <CardContent className="p-4">
@@ -88,6 +90,8 @@ export default function Component() {
                   <Image
                     src="/project.jpg"
                     alt="service"
+                    width="550"
+                    height="550"
                     className="rounded-t-lg object-cover"
                   />
                   <CardContent className="p-4">
@@ -101,6 +105,8 @@ export default function Component() {
                 <Card className="bg-black border-none">
                   <Image
                     src="/filter.png"
+                    width="550"
+                    height="550"
                     alt="service"
                     className="rounded-t-lg object-cover"
                   />
@@ -117,6 +123,8 @@ export default function Component() {
                   <Image
                     src="/today.jpg"
                     alt="service"
+                    width="550"
+                    height="550"
                     className="rounded-t-lg object-cover h-[57%]"
                   />
                   <CardContent className="p-4">
